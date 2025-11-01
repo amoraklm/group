@@ -13,7 +13,7 @@ def reply_hello(update: Update, context: CallbackContext):
 
 def main():
     # توکن ربات شما
-    TOKEN = "8171147106:AAFclL-w8m9xXJOOEQ-NAK0DlN7W4d_WEU0"
+    TOKEN = ""
 
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
